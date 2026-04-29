@@ -2,6 +2,18 @@
 
 A collection of skills for AI coding agents — language-agnostic design patterns and programming principles with progressive disclosure.
 
+## Why This Exists
+
+AI coding agents are fast and capable, but they share common failure modes:
+
+- **Over-engineering** — Adding abstractions, patterns, and flexibility that nobody asked for
+- **Under-engineering** — Writing happy-path-only code with no error handling or structural thinking
+- **Pattern blindness** — Not recognizing when a design pattern would eliminate real complexity
+- **Pattern shopping** — Applying patterns reflexively without identifying the actual pain point
+- **Drive-by refactoring** — "Improving" adjacent code while making a targeted change
+
+These skills give agents the judgment to navigate between "too simple" and "too abstract." They don't just list patterns — they teach **when to use them, when not to, and how to decide.**
+
 ## Skills
 
 ### design-patterns
