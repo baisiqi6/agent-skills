@@ -1,4 +1,4 @@
-# Agent Skills
+# Coding Standards Skills
 
 A collection of skills for AI coding agents — language-agnostic design patterns and programming principles with progressive disclosure.
 
@@ -22,7 +22,7 @@ GoF 23 classic design patterns with progressive disclosure. Includes scene-based
 
 **Install:**
 ```bash
-npx skills add baisiqi6/agent-skills@design-patterns -g -y
+npx skills add baisiqi6/coding-standards-skills@design-patterns -g -y
 ```
 
 ### programming-principles
@@ -31,7 +31,7 @@ A meta-skill that routes to and combines sub-skills. Resolves tension between "u
 
 **Install:**
 ```bash
-npx skills add baisiqi6/agent-skills@programming-principles -g -y
+npx skills add baisiqi6/coding-standards-skills@programming-principles -g -y
 ```
 
 **Dependencies:** This skill works best when [karpathy-guidelines](https://skills.sh/forrestchang/andrej-karpathy-skills) and `design-patterns` are also installed. It falls back to summarized guidance when they are unavailable.
@@ -39,8 +39,8 @@ npx skills add baisiqi6/agent-skills@programming-principles -g -y
 ## Install All
 
 ```bash
-npx skills add baisiqi6/agent-skills@design-patterns -g -y
-npx skills add baisiqi6/agent-skills@programming-principles -g -y
+npx skills add baisiqi6/coding-standards-skills@design-patterns -g -y
+npx skills add baisiqi6/coding-standards-skills@programming-principles -g -y
 ```
 
 ## Supported Agents
